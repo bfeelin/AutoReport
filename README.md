@@ -4,7 +4,7 @@ This entire macro is used in versions 6.2 and 6.7 of the Aloha point of sales sy
 
 It is run via hotkey from the Master Sales spreadsheet after End of Day (finalizes the current data - makes it read-only) has been run. It exports and prints Aloha reports via command line (reports exported to .csv format) and then searches the .csv files for needed data. After doing any necessary math, it will put data in the correct position on the Master sheet and the payroll percentage spreadsheet. Finally it will email the reports to the corporate office.
 
-It is made possible by RPT.EXE supporting input via command line (likely supported in any version post 5.0, perhaps earlier)
+It is made possible by RPT.EXE supporting input via command line (likely supported in any version of Aloha post 5.0, perhaps earlier)
 
 RPT.EXE uses the following syntax and parameters:
 
